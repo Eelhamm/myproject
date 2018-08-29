@@ -1,1 +1,1 @@
-ppp
+print("hello")
