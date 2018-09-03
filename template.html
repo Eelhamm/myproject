@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        {% for book in books%}
+        <div style="width: 500px;height: 300px;background-color: #c0c7a5;border: 5px;margin:auto;">
+            
+            <div style="text-align: center;">
+                    <p >title</p>
+                 <input type="text" id="title" name="title">
+            </div>
+                
+            <div style="text-align: center;">
+                <p>author</p>
+                <input type="text" id="author" name="author">
+            </div>
+            <div style="text-align: center;">
+                <pre>
+For Download , Please Press Click
+                </pre>
+                <a href="www.google.com">
+                <input   type="button" id="path" name="path" value="Download">
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </body>
+</html>
